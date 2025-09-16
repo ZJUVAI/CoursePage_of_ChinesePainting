@@ -4,7 +4,7 @@
     <header class="page-header">
       <h1 class="course-title">基于人工智能的国画传承与创新</h1>
       <nav class="nav-menu">
-        <router-link to="/">简介</router-link>
+        <router-link to="/home">简介</router-link>
         <router-link to="/timetable">课表</router-link>
       </nav>
       <div class="header-line"></div>
