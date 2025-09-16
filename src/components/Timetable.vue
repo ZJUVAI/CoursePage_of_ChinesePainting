@@ -129,4 +129,9 @@
   font-size: 1.2vw;
   color: #1e88e5;
 }
+
+.card p{
+  font-size: 1vw;
+  color: #101010;
+}
 </style>
