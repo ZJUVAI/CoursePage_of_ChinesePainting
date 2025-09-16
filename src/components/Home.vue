@@ -26,7 +26,7 @@
       <section class="assistant-intro">
         <h2>助教介绍</h2>
         <p>朱俊杰
-        <br>Email: 2878592560@qq.com
+        <br>Email: 22521161@zju.edu.cn
         <br>Office: 蒙民伟楼308</p>
       </section>
 
