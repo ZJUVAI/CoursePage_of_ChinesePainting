@@ -1,6 +1,6 @@
 <template>
   <div class="grid-schedule">
-    <h2>课程表</h2>
+    <h2>课表</h2>
     <div class="grid-container">
       <div class="card">
         <h3>一、课程导论与学习路径
@@ -91,12 +91,12 @@
 
 <style scoped>
 .grid-schedule {
-  padding: 20px;
+  padding: 5vw;
 }
 
 .grid-schedule h2 {
-  font-size: 26px;
-  margin-bottom: 20px;
+  font-size: 2vw;
+  margin-bottom: 3vh;
   color: #2c3e50;
 }
 
@@ -104,29 +104,29 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 每行4列 */
-  gap: 20px; /* 卡片之间的间距 */
+  gap: 1vw; /* 卡片之间的间距 */
 }
 
 /* 卡片样式 */
 .card {
 
   border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 20px;
+  border-radius: 1vw;
+  padding: 2vw;
   background: #fff;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transform: translateY(-0.5vw);
+  box-shadow: 0 0.5vw 1vw rgba(0,0,0,0.12);
 }
 
 .card h3 {
-  height: 52%;
-  margin: 0 0 10px;
-  font-size: 20px;
+  height: 60%;
+  margin: 0 0 1vw;
+  font-size: 1.2vw;
   color: #1e88e5;
 }
 </style>
