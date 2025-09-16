@@ -3,6 +3,7 @@ import Home from '../components/Home.vue'
 import Timetable from '../components/Timetable.vue'
 
 const routes = [
+  { path: '/coursepage_test', redirect: '/home' },
   { path: '/home', name: 'Home', component: Home },
   { path: '/timetable', name: 'Timetable', component: Timetable },
 ]
