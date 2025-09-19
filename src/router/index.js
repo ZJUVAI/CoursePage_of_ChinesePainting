@@ -3,9 +3,9 @@ import Home from '../components/Home.vue'
 import Timetable from '../components/Timetable.vue'
 
 const routes = [
-  { path: '/coursepage_test', redirect: '/home' },
-  { path: '/home', name: 'Home', component: Home },
-  { path: '/timetable', name: 'Timetable', component: Timetable },
+  { path: '/CoursePage_of_ChinesePainting', redirect: '/CoursePage_of_ChinesePainting/home' },
+  { path: '/CoursePage_of_ChinesePainting/home', name: 'Home', component: Home },
+  { path: '/CoursePage_of_ChinesePainting/timetable', name: 'Timetable', component: Timetable },
 ]
 
 const router = createRouter({
